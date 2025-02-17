@@ -80,8 +80,8 @@ export function Features() {
         description={t("feature.cai.description")}
       />
       <FeatureItem
-        title={t("feature.picasso")}
-        description={t("feature.picasso.description")}
+        title={t("feature.davinci")}
+        description={t("feature.divanci.description")}
       />
       <FeatureItem
         title={t("feature.seosaurus")}

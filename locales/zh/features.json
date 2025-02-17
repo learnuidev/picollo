@@ -11,5 +11,7 @@
   "feature.aivue": "AIVUE",
   "feature.aivue.description": "AIVUE是您的人工智能数据分析师，可连接到您的YouTube账户，自动分析您的分析数据并推荐下10个视频以最大化观看次数。",
   "feature.openSource": "开源",
-  "feature.openSource.description": "Picollo完全开源。您可以在GitHub仓库中查看每一行代码。"
+  "feature.openSource.description": "Picollo完全开源。您可以在GitHub仓库中查看每一行代码。",
+  "feature.davinci": "达芬奇",
+  "feature.divanci.description": "达芬奇是一个旨在简化脚本编写、拍摄和视频编辑过程的系统。"
 }

@@ -11,5 +11,7 @@
   "feature.aivue": "AIVUE",
   "feature.aivue.description": "AIVUE es tu analista de datos impulsado por IA que se conecta a tu cuenta de YouTube, analizando automáticamente tus estadísticas y recomendando los próximos 10 videos para maximizar las vistas.",
   "feature.openSource": "Código Abierto",
-  "feature.openSource.description": "Picollo es completamente de código abierto. Puedes leer cada línea de código en el repositorio de GitHub."
+  "feature.openSource.description": "Picollo es completamente de código abierto. Puedes leer cada línea de código en el repositorio de GitHub.",
+  "feature.davinci": "Da Vinci",
+  "feature.divanci.description": "Da Vinci es un sistema diseñado para agilizar el proceso de guionización, filmación y edición de videos."
 }
