@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ToggleTheme } from "@/components/toggle-theme";
+import { I18NextHtmlProvider } from "@/libs/i18n-next/i18n-next-html-provider";
+import { LanguageSwitcher } from "@/libs/i18n-next/language-switcher";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <I18NextHtmlProvider>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -36,11 +38,15 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="p-4 flex gap-4 flex-col">
-            <ToggleTheme />
+            <div className="flex justify-between items-center">
+              <ToggleTheme />
+
+              <LanguageSwitcher />
+            </div>
             {children}
           </div>
         </ThemeProvider>
       </body>
-    </html>
+    </I18NextHtmlProvider>
   );
 }
