@@ -35,7 +35,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div>
+          <div className="p-4 flex gap-4 flex-col">
             <ToggleTheme />
             {children}
           </div>
