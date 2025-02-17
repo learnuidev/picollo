@@ -1,0 +1,21 @@
+{
+  "features.title": "Features",
+
+  "feature.idee": "Idée",
+  "feature.idee.description": "Idée is a system for coming up with unlimited video ideas based on a particular channel to easily plan your next videos.",
+
+  "feature.seosaurus": "Seosaurus",
+  "feature.seosaurus.description": "Seosaurus is a system that makes it easy to create and manage attention-grabbing titles, thumbnails, tags, and more.",
+
+  "feature.picasso": "Picasso",
+  "feature.picasso.description": "Picasso is a system designed to streamline the process of scripting, filming, and editing videos.",
+
+  "feature.cai": "Cai",
+  "feature.cai.description": "Cai is a system designed to help you uncover the most popular YouTube videos, organized by various filters, providing you with incredible inspiration to elevate your channel.",
+
+  "feature.aivue": "AIVUE",
+  "feature.aivue.description": "AIVUE is your AI-powered data analyst that connects to your YouTube account, automatically analyzing your analytics and recommending the next 10 videos to maximize views.",
+
+  "feature.openSource": "Open Source",
+  "feature.openSource.description": "Picollo is fully open source. You can read every single line of code on the GitHub repository."
+}
