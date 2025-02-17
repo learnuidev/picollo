@@ -70,14 +70,17 @@ export const Banner = () => {
 
       <motion.p
         variants={descriptionVariants}
-        className="text-xl font-light mt-4"
+        className="text-xl font-light mt-4 mb-8"
       >
         {t("banner.description")}
       </motion.p>
 
-      <p className="mt-4 font-mono text-justify sm:max-w-3xl max-w-lg dark:text-gray-400">
+      <motion.p
+        variants={descriptionVariants}
+        className="mt-4 font-mono text-justify sm:max-w-3xl max-w-lg dark:text-gray-400"
+      >
         {t("banner.info")}
-      </p>
+      </motion.p>
 
       <motion.div variants={ctaVariants}>
         <div className="mt-8">
