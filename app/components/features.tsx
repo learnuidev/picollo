@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
-export function FeatureItem({
+import { useTranslation } from "@/libs/i18n-next/use-translation";
+
+function FeatureItem({
   title,
   description,
 }: {
@@ -30,7 +32,7 @@ export function FeatureItem({
   );
 }
 
-export const Features = ({
+const FeaturesContainer = ({
   children,
   title,
 }: {
@@ -64,3 +66,35 @@ export const Features = ({
     </motion.section>
   );
 };
+
+export function Features() {
+  const { t } = useTranslation("features");
+  return (
+    <FeaturesContainer title={t("features.title")}>
+      <FeatureItem
+        title={t("feature.idee")}
+        description={t("feature.idee.description")}
+      />
+      <FeatureItem
+        title={t("feature.cai")}
+        description={t("feature.cai.description")}
+      />
+      <FeatureItem
+        title={t("feature.picasso")}
+        description={t("feature.picasso.description")}
+      />
+      <FeatureItem
+        title={t("feature.seosaurus")}
+        description={t("feature.seosaurus.description")}
+      />
+      <FeatureItem
+        title={t("feature.aivue")}
+        description={t("feature.aivue.description")}
+      />
+      <FeatureItem
+        title={t("feature.openSource")}
+        description={t("feature.openSource.description")}
+      />
+    </FeaturesContainer>
+  );
+}
